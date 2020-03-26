@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E53F2D16C3EAFE8D460A515BF8EB87 /* Pods-PYTTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65ADA1A85985A23CADAB789D252F92E2 /* Pods-PYTTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A54DC00CFCA248E945878207C55690A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4C63225DB9D786E283BDB44EF470614B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		56694ACA79ECE4FC16B3EE72D63013D3 /* CapsuleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DCEF74D762FCB1474AF8C5FB15A769 /* CapsuleUtils.m */; };
+		5A736E650C180ABB9DC60AF6C9CD8B71 /* CapsuleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF017572FB660B88777FBAA325B3C13 /* CapsuleUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B02722C4D9CBBEFF9FA98BD970FFE8 /* Pods-PYTTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0087480E1CAAA635A6488B388E04DA98 /* Pods-PYTTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7853659FBB1A4DE830E67B36DABC35A3 /* Pods-PYTTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F759EA885E3D1A0042487C1AEB3605 /* Pods-PYTTools_Tests-dummy.m */; };
+		A7712EE429FF1A0361E5D41D90FAA7A3 /* Pods-PYTTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F5DF533BAB4F717E5088B6F5DFF2FF /* Pods-PYTTools_Example-dummy.m */; };
+		AA94609B7FD0D8AF23B417B60277C0EE /* PYTTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A75C915CEF564109E78FE93AED55F6 /* PYTTools-dummy.m */; };
+		CA8DB058DD035555E85197966BE76078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D17D2F2363E0D521BB6089300CDDB5BE /* PYTTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D40D31A704062DF82F16D4FFBF62369 /* PYTTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5852BABF7AC496DBCAA93C8AFB3E6881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5C4A081E62293C742CC95B966D2D12;
+			remoteInfo = "Pods-PYTTools_Example";
+		};
+		9E35B3DD97A121256B53DFC39CD2D0B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C27F926F4E40F0C5C3A101C74246F37;
+			remoteInfo = PYTTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0087480E1CAAA635A6488B388E04DA98 /* Pods-PYTTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PYTTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		19EE4324B48FCD3732914094329397AB /* PYTTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PYTTools-Info.plist"; sourceTree = "<group>"; };
+		288B1335354E042B7DC5A4B7EF54AD55 /* Pods-PYTTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYTTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3D075491524BCA2F8E82480294A7A2 /* Pods-PYTTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYTTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D3BAEF0ECA0B6702BD082EC7104DD54 /* Pods-PYTTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYTTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AF9FEE42CA13E3B52EDDA6DD535FBCE /* Pods-PYTTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYTTools_Example-Info.plist"; sourceTree = "<group>"; };
+		47F5DF533BAB4F717E5088B6F5DFF2FF /* Pods-PYTTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYTTools_Example-dummy.m"; sourceTree = "<group>"; };
+		4E884395E4399CA206888A379193E686 /* Pods-PYTTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYTTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		590B7E2768C7F9166CAC8F3A18FA276E /* PYTTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYTTools.debug.xcconfig; sourceTree = "<group>"; };
+		5A9A2E24757318AD74866D508E0ED9B3 /* Pods-PYTTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PYTTools_Example.modulemap"; sourceTree = "<group>"; };
+		5C4F0921E00A88D483E40AEF63272A58 /* Pods-PYTTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYTTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C6A5A8F826325627D92ED0F4E96EF7B /* Pods-PYTTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PYTTools_Tests.modulemap"; sourceTree = "<group>"; };
+		65ADA1A85985A23CADAB789D252F92E2 /* Pods-PYTTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PYTTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6A0AF4C012A254FE2413743FEC45EDB3 /* Pods_PYTTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYTTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB289FCDBD2D5C80ABEAFE1330D3393 /* PYTTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYTTools-prefix.pch"; sourceTree = "<group>"; };
+		7D037472CDD85680C22EC505E3D96F79 /* Pods-PYTTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYTTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		87DD676903819CA9DDA6E219D417EE8E /* Pods-PYTTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYTTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8D40D31A704062DF82F16D4FFBF62369 /* PYTTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYTTools-umbrella.h"; sourceTree = "<group>"; };
+		95A75C915CEF564109E78FE93AED55F6 /* PYTTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYTTools-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF6ACC75D5A6589CAAA347642DAA0A97 /* PYTTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PYTTools.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		B09F9801227A9A733540BC9D7912CC44 /* PYTTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYTTools.release.xcconfig; sourceTree = "<group>"; };
+		BEF41EF0C599362D38CD37CF496BEA08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C4AB9D440A036D82A304AF291163082E /* PYTTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PYTTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC69AB6701DE60A4487C9271597B436B /* Pods-PYTTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYTTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0AC631D23ADBED54BF52AAF2697C7AA /* Pods_PYTTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PYTTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A4CE12B8AA0CCF8ADB2F63E8E7989B /* Pods-PYTTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYTTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF017572FB660B88777FBAA325B3C13 /* CapsuleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CapsuleUtils.h; path = PYTTools/Classes/CapsuleUtils.h; sourceTree = "<group>"; };
+		E1A744F7C7C0D5EE85F616C6B1FD4F13 /* PYTTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PYTTools.modulemap; sourceTree = "<group>"; };
+		E5DCEF74D762FCB1474AF8C5FB15A769 /* CapsuleUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CapsuleUtils.m; path = PYTTools/Classes/CapsuleUtils.m; sourceTree = "<group>"; };
+		EC1650571DB9F67407E11E2DEEA5888D /* Pods-PYTTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYTTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF3C886FB3AF97E58BC2BC1D4506C0C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F1F759EA885E3D1A0042487C1AEB3605 /* Pods-PYTTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYTTools_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D9E9EE329BCC4E0B65BA8CDB5DC7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A54DC00CFCA248E945878207C55690A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2E2FAAFA85A9D1445038DFEC803371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C63225DB9D786E283BDB44EF470614B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEE4A061B93089794EAD4A6A31C72DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8DB058DD035555E85197966BE76078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4DC32BE2AA9FC9AE4FE07AACFE008D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58705A3B9ACA10B9C283C86B40143C50 /* Pods-PYTTools_Example */,
+				E8D0ABFED2CC3E05D15D658360D7E9AD /* Pods-PYTTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		414CE061F6811E568E9C46401BB841E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BEF41EF0C599362D38CD37CF496BEA08 /* LICENSE */,
+				AF6ACC75D5A6589CAAA347642DAA0A97 /* PYTTools.podspec */,
+				EF3C886FB3AF97E58BC2BC1D4506C0C1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4C061978D4147A69B2B6591B48D9063F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0AF4C012A254FE2413743FEC45EDB3 /* Pods_PYTTools_Example.framework */,
+				D0AC631D23ADBED54BF52AAF2697C7AA /* Pods_PYTTools_Tests.framework */,
+				C4AB9D440A036D82A304AF291163082E /* PYTTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58705A3B9ACA10B9C283C86B40143C50 /* Pods-PYTTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A2E24757318AD74866D508E0ED9B3 /* Pods-PYTTools_Example.modulemap */,
+				EC1650571DB9F67407E11E2DEEA5888D /* Pods-PYTTools_Example-acknowledgements.markdown */,
+				2B3D075491524BCA2F8E82480294A7A2 /* Pods-PYTTools_Example-acknowledgements.plist */,
+				47F5DF533BAB4F717E5088B6F5DFF2FF /* Pods-PYTTools_Example-dummy.m */,
+				7D037472CDD85680C22EC505E3D96F79 /* Pods-PYTTools_Example-frameworks.sh */,
+				3AF9FEE42CA13E3B52EDDA6DD535FBCE /* Pods-PYTTools_Example-Info.plist */,
+				0087480E1CAAA635A6488B388E04DA98 /* Pods-PYTTools_Example-umbrella.h */,
+				D1A4CE12B8AA0CCF8ADB2F63E8E7989B /* Pods-PYTTools_Example.debug.xcconfig */,
+				87DD676903819CA9DDA6E219D417EE8E /* Pods-PYTTools_Example.release.xcconfig */,
+			);
+			name = "Pods-PYTTools_Example";
+			path = "Target Support Files/Pods-PYTTools_Example";
+			sourceTree = "<group>";
+		};
+		90D811807664BD342A3DFC7AE8EFEF56 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A90E089C1190523ADFA11E83F18369C6 /* PYTTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9D27BA390D9C7DAFD6152D2E6BB3EB39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A744F7C7C0D5EE85F616C6B1FD4F13 /* PYTTools.modulemap */,
+				95A75C915CEF564109E78FE93AED55F6 /* PYTTools-dummy.m */,
+				19EE4324B48FCD3732914094329397AB /* PYTTools-Info.plist */,
+				6AB289FCDBD2D5C80ABEAFE1330D3393 /* PYTTools-prefix.pch */,
+				8D40D31A704062DF82F16D4FFBF62369 /* PYTTools-umbrella.h */,
+				590B7E2768C7F9166CAC8F3A18FA276E /* PYTTools.debug.xcconfig */,
+				B09F9801227A9A733540BC9D7912CC44 /* PYTTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PYTTools";
+			sourceTree = "<group>";
+		};
+		A90E089C1190523ADFA11E83F18369C6 /* PYTTools */ = {
+			isa = PBXGroup;
+			children = (
+				DBF017572FB660B88777FBAA325B3C13 /* CapsuleUtils.h */,
+				E5DCEF74D762FCB1474AF8C5FB15A769 /* CapsuleUtils.m */,
+				414CE061F6811E568E9C46401BB841E1 /* Pod */,
+				9D27BA390D9C7DAFD6152D2E6BB3EB39 /* Support Files */,
+			);
+			name = PYTTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				90D811807664BD342A3DFC7AE8EFEF56 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4C061978D4147A69B2B6591B48D9063F /* Products */,
+				0E4DC32BE2AA9FC9AE4FE07AACFE008D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D0ABFED2CC3E05D15D658360D7E9AD /* Pods-PYTTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A5A8F826325627D92ED0F4E96EF7B /* Pods-PYTTools_Tests.modulemap */,
+				CC69AB6701DE60A4487C9271597B436B /* Pods-PYTTools_Tests-acknowledgements.markdown */,
+				5C4F0921E00A88D483E40AEF63272A58 /* Pods-PYTTools_Tests-acknowledgements.plist */,
+				F1F759EA885E3D1A0042487C1AEB3605 /* Pods-PYTTools_Tests-dummy.m */,
+				4E884395E4399CA206888A379193E686 /* Pods-PYTTools_Tests-Info.plist */,
+				65ADA1A85985A23CADAB789D252F92E2 /* Pods-PYTTools_Tests-umbrella.h */,
+				288B1335354E042B7DC5A4B7EF54AD55 /* Pods-PYTTools_Tests.debug.xcconfig */,
+				2D3BAEF0ECA0B6702BD082EC7104DD54 /* Pods-PYTTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-PYTTools_Tests";
+			path = "Target Support Files/Pods-PYTTools_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		648D706CE3114BAF0AE8BE7931CA53C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E53F2D16C3EAFE8D460A515BF8EB87 /* Pods-PYTTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EE350FB1C27FA112B07D18397C0375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A736E650C180ABB9DC60AF6C9CD8B71 /* CapsuleUtils.h in Headers */,
+				D17D2F2363E0D521BB6089300CDDB5BE /* PYTTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EFC7CEE4584EAE19C100CC3C7D59F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B02722C4D9CBBEFF9FA98BD970FFE8 /* Pods-PYTTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C27F926F4E40F0C5C3A101C74246F37 /* PYTTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815F7112293A7567BB3361AEB60A877D /* Build configuration list for PBXNativeTarget "PYTTools" */;
+			buildPhases = (
+				A2EE350FB1C27FA112B07D18397C0375 /* Headers */,
+				FD7137A8F403E3E7A65B38C8BFBA527E /* Sources */,
+				5A2E2FAAFA85A9D1445038DFEC803371 /* Frameworks */,
+				EA27D9C1D6B5E7845C631F052F0ED25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYTTools;
+			productName = PYTTools;
+			productReference = C4AB9D440A036D82A304AF291163082E /* PYTTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		877F2744CBA72FF33E0B27B8B6CE2B36 /* Pods-PYTTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718A384377676F4A3E2A566383CBDED2 /* Build configuration list for PBXNativeTarget "Pods-PYTTools_Tests" */;
+			buildPhases = (
+				648D706CE3114BAF0AE8BE7931CA53C3 /* Headers */,
+				D7AF200F7CE3550ED898CCF0FF4CB3D5 /* Sources */,
+				40D9E9EE329BCC4E0B65BA8CDB5DC7D5 /* Frameworks */,
+				8670720D1FBE9629C52FADA41FE20908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81A31467E14F8D8EF00CBE600E099AAA /* PBXTargetDependency */,
+			);
+			name = "Pods-PYTTools_Tests";
+			productName = "Pods-PYTTools_Tests";
+			productReference = D0AC631D23ADBED54BF52AAF2697C7AA /* Pods_PYTTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF5C4A081E62293C742CC95B966D2D12 /* Pods-PYTTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4476EA2F05F112322D2F45E93FC4385 /* Build configuration list for PBXNativeTarget "Pods-PYTTools_Example" */;
+			buildPhases = (
+				D7EFC7CEE4584EAE19C100CC3C7D59F7 /* Headers */,
+				7F7D2BFB2AAF31713FF1804145989462 /* Sources */,
+				BEEE4A061B93089794EAD4A6A31C72DD /* Frameworks */,
+				4CBAE43C759374C31BFACAD028B45B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF220DF41D7A6271984831C2132A017 /* PBXTargetDependency */,
+			);
+			name = "Pods-PYTTools_Example";
+			productName = "Pods-PYTTools_Example";
+			productReference = 6A0AF4C012A254FE2413743FEC45EDB3 /* Pods_PYTTools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C061978D4147A69B2B6591B48D9063F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5C4A081E62293C742CC95B966D2D12 /* Pods-PYTTools_Example */,
+				877F2744CBA72FF33E0B27B8B6CE2B36 /* Pods-PYTTools_Tests */,
+				4C27F926F4E40F0C5C3A101C74246F37 /* PYTTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBAE43C759374C31BFACAD028B45B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8670720D1FBE9629C52FADA41FE20908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27D9C1D6B5E7845C631F052F0ED25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F7D2BFB2AAF31713FF1804145989462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7712EE429FF1A0361E5D41D90FAA7A3 /* Pods-PYTTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AF200F7CE3550ED898CCF0FF4CB3D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7853659FBB1A4DE830E67B36DABC35A3 /* Pods-PYTTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7137A8F403E3E7A65B38C8BFBA527E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56694ACA79ECE4FC16B3EE72D63013D3 /* CapsuleUtils.m in Sources */,
+				AA94609B7FD0D8AF23B417B60277C0EE /* PYTTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81A31467E14F8D8EF00CBE600E099AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PYTTools_Example";
+			target = DF5C4A081E62293C742CC95B966D2D12 /* Pods-PYTTools_Example */;
+			targetProxy = 5852BABF7AC496DBCAA93C8AFB3E6881 /* PBXContainerItemProxy */;
+		};
+		ACF220DF41D7A6271984831C2132A017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PYTTools;
+			target = 4C27F926F4E40F0C5C3A101C74246F37 /* PYTTools */;
+			targetProxy = 9E35B3DD97A121256B53DFC39CD2D0B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07E8C23F8DEF3C4921236ED5E93D79AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288B1335354E042B7DC5A4B7EF54AD55 /* Pods-PYTTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYTTools_Tests/Pods-PYTTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYTTools_Tests/Pods-PYTTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		350326CE2B2979AFA099CD6B2582A754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09F9801227A9A733540BC9D7912CC44 /* PYTTools.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PYTTools/PYTTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PYTTools/PYTTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PYTTools/PYTTools.modulemap";
+				PRODUCT_MODULE_NAME = PYTTools;
+				PRODUCT_NAME = PYTTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A61F514E06B0DC7D6B617050DDC7B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3BAEF0ECA0B6702BD082EC7104DD54 /* Pods-PYTTools_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYTTools_Tests/Pods-PYTTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYTTools_Tests/Pods-PYTTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A75E1A03AC4F55ACCA7DE0D300BC6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A4CE12B8AA0CCF8ADB2F63E8E7989B /* Pods-PYTTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYTTools_Example/Pods-PYTTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYTTools_Example/Pods-PYTTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C187FAE17258758F37D95B5B8DD866A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DD676903819CA9DDA6E219D417EE8E /* Pods-PYTTools_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PYTTools_Example/Pods-PYTTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PYTTools_Example/Pods-PYTTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F989E774DD4816885E91F1DEA242A064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590B7E2768C7F9166CAC8F3A18FA276E /* PYTTools.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PYTTools/PYTTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PYTTools/PYTTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PYTTools/PYTTools.modulemap";
+				PRODUCT_MODULE_NAME = PYTTools;
+				PRODUCT_NAME = PYTTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718A384377676F4A3E2A566383CBDED2 /* Build configuration list for PBXNativeTarget "Pods-PYTTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E8C23F8DEF3C4921236ED5E93D79AE /* Debug */,
+				3A61F514E06B0DC7D6B617050DDC7B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815F7112293A7567BB3361AEB60A877D /* Build configuration list for PBXNativeTarget "PYTTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F989E774DD4816885E91F1DEA242A064 /* Debug */,
+				350326CE2B2979AFA099CD6B2582A754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4476EA2F05F112322D2F45E93FC4385 /* Build configuration list for PBXNativeTarget "Pods-PYTTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A75E1A03AC4F55ACCA7DE0D300BC6A8 /* Debug */,
+				C187FAE17258758F37D95B5B8DD866A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PYTTools (0.1.0)
+
+DEPENDENCIES:
+  - PYTTools (from `../`)
+
+EXTERNAL SOURCES:
+  PYTTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PYTTools: 7d2d0ddf42c31bc0d976da6ecc09ca7cb37af748
+
+PODFILE CHECKSUM: 79b732d45644aa93501f99e5bea76dcd9afd2e5d
+
+COCOAPODS: 1.9.1
